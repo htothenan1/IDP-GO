@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const Footer = () => {
     return (  
@@ -10,71 +11,45 @@ export const Footer = () => {
             </a>
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            {/* <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-              <nav class="list-none mb-10">
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div> */}
-            {/* <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-              <nav class="list-none mb-10">
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div> */}
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <Link href="/"><a class="text-gray-600 hover:text-gray-800">Home</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <Link href="/about"><a class="text-gray-600 hover:text-gray-800">About Us</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <Link href="/order"><a class="text-gray-600 hover:text-gray-800">Order Now</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <Link href="/instructions"><a class="text-gray-600 hover:text-gray-800">Instructions</a></Link>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <nav class="list-none mb-10">
+                <li>
+                  <Link href="/faq"><a class="text-gray-600 hover:text-gray-800">FAQ</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <Link href="/contact"><a class="text-gray-600 hover:text-gray-800">Contact Us</a></Link>
                 </li>
+                
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                </li>
+                
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Terms of Service</a>
                 </li>
               </nav>
             </div>
