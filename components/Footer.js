@@ -49,7 +49,7 @@ export const Footer = () => {
                 </li>
                 
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Terms of Service</a>
+                  <Link href="/serviceterms"><a class="text-gray-600 hover:text-gray-800">Terms of Service</a></Link>
                 </li>
               </nav>
             </div>
