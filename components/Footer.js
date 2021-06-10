@@ -45,7 +45,7 @@ export const Footer = () => {
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                  <Link href="/privacypolicy"><a class="text-gray-600 hover:text-gray-800">Privacy Policy</a></Link>
                 </li>
                 
                 <li>
